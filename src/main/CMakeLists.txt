@@ -1,6 +1,11 @@
 
 set(MAIN_SRC
   main.cpp
+  writer.h
+  filewriter.h
+  filewriter.cpp
+  consolewriter.h
+  consolewriter.cpp
 )
 
 add_executable(
