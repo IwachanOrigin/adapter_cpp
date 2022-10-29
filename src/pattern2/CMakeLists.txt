@@ -1,5 +1,5 @@
 
-project(pattern1 CXX)
+project(pattern2 CXX)
 
 set(MAIN_SRC
   main.cpp
