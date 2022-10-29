@@ -11,7 +11,7 @@ class Writer
 {
 public:
     explicit Writer() = default;
-    ~Writer() = default;
+    virtual ~Writer() = default;
 
     virtual void openFile() = 0;
     virtual void writeData(const std::string& stringDat) = 0;

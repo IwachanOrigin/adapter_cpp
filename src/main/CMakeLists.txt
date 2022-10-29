@@ -6,6 +6,10 @@ set(MAIN_SRC
   filewriter.cpp
   consolewriter.h
   consolewriter.cpp
+  htmlwriter.h
+  htmlwriter.cpp
+  htmlwriterclassadapter.h
+  htmlwriterclassadapter.cpp
 )
 
 add_executable(
